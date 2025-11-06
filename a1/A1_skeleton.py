@@ -7,7 +7,6 @@ from transformers import BatchEncoding, PretrainedConfig, PreTrainedModel
 from torch.utils.data import DataLoader
 import numpy as np
 import sys, time, os
-
 ###
 ### Part 1. Tokenization.
 ###
@@ -36,12 +35,13 @@ def build_tokenizer(train_file, tokenize_fun=lowercase_tokenizer, max_voc_size=N
     
     with open(train_file) as file:
         while line := file.readline():
-            line = line.rstrip()
+            #line = line.rstrip()
             word_tokens = tokenize_fun(line)
             count.update(word_tokens)
-    
-    if len(count) > max_voc_size - 4:
-        most_common = count.most_common(max_voc_size - 4)
+    if max_voc_size:
+        print('this is run')
+        if len(count) > max_voc_size - 4:
+            most_common = count.most_common(max_voc_size - 4)
     else:
         most_common = count.most_common()
     
@@ -53,7 +53,7 @@ def build_tokenizer(train_file, tokenize_fun=lowercase_tokenizer, max_voc_size=N
     
     int_to_str = dict(zip(str_to_int.values(), str_to_int.keys()))
     
-    return A1Tokenizer(3, 2, model_max_length, str_to_int, int_to_str)
+    return A1Tokenizer(0, 1, 3, 2, model_max_length, str_to_int, int_to_str)
     
 
    
@@ -108,12 +108,14 @@ class A1Tokenizer:
         for text in texts:
             tokens = lowercase_tokenizer(text)
             tokens_list.append(tokens)
-            if token_len := len(tokens) > token_len_max:
+            token_len = len(tokens)
+            if token_len > token_len_max:
                 token_len_max = token_len
         
-        if truncation and self.model_max_length < token_len_max:
-            # max amount len is model_max_length
-            max_len = self.model_max_length
+        if truncation:
+            if self.model_max_length < token_len_max:
+                # max amount len is model_max_length
+                max_len = self.model_max_length
         else:
             # max amount len is token_len_max
             max_len = token_len_max
@@ -129,10 +131,9 @@ class A1Tokenizer:
         # add padding, padded on the right side
         input_ids = [torch.tensor(l) for l in ids_list]
         if padding:
-            input_ids = nn.utils.rnn.pad_sequance(input_ids, batch_first=True, padding_value=self.pad_token_id)
+            input_ids = nn.utils.rnn.pad_sequence(input_ids, batch_first=True, padding_value=self.pad_token_id)
         else:
             input_ids = torch.stack(input_ids, dim=0)
-            
         # TODO: Return a BatchEncoding where input_ids stores the result of the integer encoding.
         # Optionally, if you want to be 100% HuggingFace-compatible, you should also include an 
         # attention mask of the same shape as input_ids. In this mask, padding tokens correspond
