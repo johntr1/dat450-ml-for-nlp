@@ -6,4 +6,4 @@
 # shared environment not working on cluster, activating local venv
 source ~/.envs/a1/bin/activate
 
-python3 main.py
+python3 -u train.py
