@@ -340,13 +340,14 @@ class A1Trainer:
         #       optimizer.zero_grad()
         #       loss.backward()
         #       optimizer.step()
-        start_time = time.time() 
         for epoch in range(args.num_train_epochs):
             self.model.train()
             steps = 0
             total_loss = 0.0
             
             print(f"\n==== Epoch {epoch+1}/{args.num_train_epochs} ====")
+
+            start_time = time.time()
 
             for batch in train_loader:
                 input_ids = self.tokenizer(batch['text'], truncation=True, padding=True, return_tensors="pt").input_ids

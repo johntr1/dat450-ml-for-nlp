@@ -39,6 +39,34 @@ def evaluate_perplexity(model, dataloader, tokenizer, device: torch.device, pad_
 
         return ppl
     
+def predict_next_word(model, tokenizer, text, k=5):
+    print(f'The prompt: {text}')
+
+    model.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
+    model.eval()
+    
+    tokenized = tokenizer([text], return_tensors="pt")
+
+    input_ids = tokenized.input_ids
+    input_ids = input_ids.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
+
+    with torch.no_grad():
+        logits = model(input_ids)
+
+    last_word_token_logits = logits[0, -2, :]
+
+    probs = torch.softmax(last_word_token_logits, dim=0)
+    top_k_probs, top_k_indices = torch.topk(probs, k)
+
+    int_to_srt = tokenizer.int_to_str
+
+    print(f'Top {k} words after the prompt: ')
+    for i in range(k):
+        token_id = top_k_indices[i].item()
+        word = int_to_srt[token_id]
+        prob = top_k_probs[i].item()
+        print(f'{i+1}. {word}, ID: {token_id}, Probability: {prob}')
+    
 def main():
     # load the model, tokenizer, and dataloader here
     model = A1RNNModel.from_pretrained("./ten_epoch_model",
@@ -54,7 +82,10 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     ppl = evaluate_perplexity(model, dataloader, tokenizer, device, pad_id=tokenizer.pad_token_id)
     print(f"Perplexity on test set: {ppl}")
-
+    print("Predicting next word...")
+    print("===================================")
+    prompt = "He lives in Los"
+    predict_next_word(model, tokenizer, prompt)
 
 if __name__ == "__main__":
     main() 
