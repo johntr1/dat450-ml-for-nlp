@@ -1,0 +1,565 @@
+Loading Dataset...
+Dataset Loaded Successfully
+Starting Training...
+Device: cuda
+
+==== Epoch 1/10 ====
+
+[Train] Epoch 1 Step 100 - Loss: 6.5106 - Elapsed time: 4.24s
+[Train] Epoch 1 Step 200 - Loss: 6.2096 - Elapsed time: 8.19s
+[Train] Epoch 1 Step 300 - Loss: 6.0539 - Elapsed time: 11.78s
+[Train] Epoch 1 Step 400 - Loss: 5.9438 - Elapsed time: 15.44s
+[Train] Epoch 1 Step 500 - Loss: 5.8541 - Elapsed time: 19.06s
+[Train] Epoch 1 Step 600 - Loss: 5.7822 - Elapsed time: 22.61s
+[Train] Epoch 1 Step 700 - Loss: 5.7205 - Elapsed time: 26.07s
+[Train] Epoch 1 Step 800 - Loss: 5.6700 - Elapsed time: 29.81s
+[Train] Epoch 1 Step 900 - Loss: 5.6256 - Elapsed time: 33.41s
+[Train] Epoch 1 Step 1000 - Loss: 5.5864 - Elapsed time: 36.91s
+[Train] Epoch 1 Step 1100 - Loss: 5.5523 - Elapsed time: 40.55s
+[Train] Epoch 1 Step 1200 - Loss: 5.5215 - Elapsed time: 44.05s
+[Train] Epoch 1 Step 1300 - Loss: 5.4927 - Elapsed time: 47.58s
+[Train] Epoch 1 Step 1400 - Loss: 5.4666 - Elapsed time: 51.22s
+[Train] Epoch 1 Step 1500 - Loss: 5.4436 - Elapsed time: 54.77s
+[Train] Epoch 1 Step 1600 - Loss: 5.4215 - Elapsed time: 58.40s
+[Train] Epoch 1 Step 1700 - Loss: 5.4007 - Elapsed time: 62.10s
+[Train] Epoch 1 Step 1800 - Loss: 5.3806 - Elapsed time: 65.75s
+[Train] Epoch 1 Step 1900 - Loss: 5.3632 - Elapsed time: 69.45s
+[Train] Epoch 1 Step 2000 - Loss: 5.3456 - Elapsed time: 72.98s
+[Train] Epoch 1 Step 2100 - Loss: 5.3285 - Elapsed time: 76.60s
+[Train] Epoch 1 Step 2200 - Loss: 5.3121 - Elapsed time: 80.31s
+[Train] Epoch 1 Step 2300 - Loss: 5.2967 - Elapsed time: 83.91s
+[Train] Epoch 1 Step 2400 - Loss: 5.2818 - Elapsed time: 87.62s
+[Train] Epoch 1 Step 2500 - Loss: 5.2679 - Elapsed time: 91.17s
+[Train] Epoch 1 Step 2600 - Loss: 5.2537 - Elapsed time: 94.79s
+[Train] Epoch 1 Step 2700 - Loss: 5.2406 - Elapsed time: 98.45s
+[Train] Epoch 1 Step 2800 - Loss: 5.2272 - Elapsed time: 102.06s
+[Train] Epoch 1 Step 2900 - Loss: 5.2149 - Elapsed time: 105.92s
+[Train] Epoch 1 Step 3000 - Loss: 5.2026 - Elapsed time: 109.61s
+[Train] Epoch 1 Step 3100 - Loss: 5.1911 - Elapsed time: 113.41s
+[Train] Epoch 1 Step 3200 - Loss: 5.1792 - Elapsed time: 116.96s
+[Train] Epoch 1 Step 3300 - Loss: 5.1684 - Elapsed time: 120.47s
+[Train] Epoch 1 Step 3400 - Loss: 5.1574 - Elapsed time: 124.18s
+[Train] Epoch 1 Step 3500 - Loss: 5.1467 - Elapsed time: 127.84s
+[Train] Epoch 1 Step 3600 - Loss: 5.1363 - Elapsed time: 131.47s
+[Train] Epoch 1 Step 3700 - Loss: 5.1259 - Elapsed time: 135.04s
+[Train] Epoch 1 Step 3800 - Loss: 5.1159 - Elapsed time: 138.68s
+[Train] Epoch 1 Step 3900 - Loss: 5.1060 - Elapsed time: 142.38s
+[Train] Epoch 1 Step 4000 - Loss: 5.0969 - Elapsed time: 146.11s
+[Train] Epoch 1 Step 4100 - Loss: 5.0879 - Elapsed time: 149.69s
+[Train] Epoch 1 Step 4200 - Loss: 5.0790 - Elapsed time: 153.33s
+[Train] Epoch 1 Step 4300 - Loss: 5.0703 - Elapsed time: 156.96s
+[Train] Epoch 1 Step 4400 - Loss: 5.0617 - Elapsed time: 160.69s
+[Train] Epoch 1 Step 4500 - Loss: 5.0531 - Elapsed time: 164.27s
+[Train] Epoch 1 completed - Loss: 5.0453 - Elapsed time: 167.87s
+
+[Val] Epoch 1 Step 100 - Loss: 4.5760 - Elapsed time: 169.74s
+[Val] Epoch 1 Step 200 - Loss: 4.5767 - Elapsed time: 171.75s
+[Val] Epoch 1 Step 300 - Loss: 4.5673 - Elapsed time: 173.56s
+[Val] Epoch 1 Step 400 - Loss: 4.5773 - Elapsed time: 175.52s
+[Val] Epoch 1 Step 500 - Loss: 4.6021 - Elapsed time: 177.26s
+[Val] Epoch 1 completed - Loss: 4.6111 - Elapsed time: 178.20s
+
+==== Epoch 2/10 ====
+
+[Train] Epoch 2 Step 100 - Loss: 4.6198 - Elapsed time: 181.72s
+[Train] Epoch 2 Step 200 - Loss: 4.6228 - Elapsed time: 185.27s
+[Train] Epoch 2 Step 300 - Loss: 4.6201 - Elapsed time: 189.05s
+[Train] Epoch 2 Step 400 - Loss: 4.6198 - Elapsed time: 192.70s
+[Train] Epoch 2 Step 500 - Loss: 4.6194 - Elapsed time: 196.41s
+[Train] Epoch 2 Step 600 - Loss: 4.6196 - Elapsed time: 200.13s
+[Train] Epoch 2 Step 700 - Loss: 4.6136 - Elapsed time: 203.73s
+[Train] Epoch 2 Step 800 - Loss: 4.6085 - Elapsed time: 207.35s
+[Train] Epoch 2 Step 900 - Loss: 4.6045 - Elapsed time: 211.05s
+[Train] Epoch 2 Step 1000 - Loss: 4.6008 - Elapsed time: 214.73s
+[Train] Epoch 2 Step 1100 - Loss: 4.5979 - Elapsed time: 218.33s
+[Train] Epoch 2 Step 1200 - Loss: 4.5940 - Elapsed time: 221.86s
+[Train] Epoch 2 Step 1300 - Loss: 4.5913 - Elapsed time: 225.53s
+[Train] Epoch 2 Step 1400 - Loss: 4.5892 - Elapsed time: 229.10s
+[Train] Epoch 2 Step 1500 - Loss: 4.5877 - Elapsed time: 232.62s
+[Train] Epoch 2 Step 1600 - Loss: 4.5843 - Elapsed time: 236.25s
+[Train] Epoch 2 Step 1700 - Loss: 4.5812 - Elapsed time: 239.80s
+[Train] Epoch 2 Step 1800 - Loss: 4.5785 - Elapsed time: 243.47s
+[Train] Epoch 2 Step 1900 - Loss: 4.5758 - Elapsed time: 246.95s
+[Train] Epoch 2 Step 2000 - Loss: 4.5720 - Elapsed time: 250.60s
+[Train] Epoch 2 Step 2100 - Loss: 4.5698 - Elapsed time: 254.24s
+[Train] Epoch 2 Step 2200 - Loss: 4.5667 - Elapsed time: 257.93s
+[Train] Epoch 2 Step 2300 - Loss: 4.5643 - Elapsed time: 261.80s
+[Train] Epoch 2 Step 2400 - Loss: 4.5616 - Elapsed time: 265.43s
+[Train] Epoch 2 Step 2500 - Loss: 4.5599 - Elapsed time: 269.06s
+[Train] Epoch 2 Step 2600 - Loss: 4.5571 - Elapsed time: 272.80s
+[Train] Epoch 2 Step 2700 - Loss: 4.5544 - Elapsed time: 276.48s
+[Train] Epoch 2 Step 2800 - Loss: 4.5514 - Elapsed time: 280.07s
+[Train] Epoch 2 Step 2900 - Loss: 4.5490 - Elapsed time: 283.61s
+[Train] Epoch 2 Step 3000 - Loss: 4.5470 - Elapsed time: 287.24s
+[Train] Epoch 2 Step 3100 - Loss: 4.5444 - Elapsed time: 290.92s
+[Train] Epoch 2 Step 3200 - Loss: 4.5418 - Elapsed time: 294.58s
+[Train] Epoch 2 Step 3300 - Loss: 4.5397 - Elapsed time: 298.14s
+[Train] Epoch 2 Step 3400 - Loss: 4.5371 - Elapsed time: 301.82s
+[Train] Epoch 2 Step 3500 - Loss: 4.5346 - Elapsed time: 305.50s
+[Train] Epoch 2 Step 3600 - Loss: 4.5320 - Elapsed time: 309.06s
+[Train] Epoch 2 Step 3700 - Loss: 4.5296 - Elapsed time: 312.79s
+[Train] Epoch 2 Step 3800 - Loss: 4.5276 - Elapsed time: 316.55s
+[Train] Epoch 2 Step 3900 - Loss: 4.5253 - Elapsed time: 320.27s
+[Train] Epoch 2 Step 4000 - Loss: 4.5229 - Elapsed time: 323.94s
+[Train] Epoch 2 Step 4100 - Loss: 4.5205 - Elapsed time: 327.52s
+[Train] Epoch 2 Step 4200 - Loss: 4.5183 - Elapsed time: 331.17s
+[Train] Epoch 2 Step 4300 - Loss: 4.5162 - Elapsed time: 334.94s
+[Train] Epoch 2 Step 4400 - Loss: 4.5140 - Elapsed time: 338.56s
+[Train] Epoch 2 Step 4500 - Loss: 4.5115 - Elapsed time: 342.19s
+[Train] Epoch 2 completed - Loss: 4.5092 - Elapsed time: 345.81s
+
+[Val] Epoch 2 Step 100 - Loss: 4.3558 - Elapsed time: 347.69s
+[Val] Epoch 2 Step 200 - Loss: 4.3571 - Elapsed time: 349.69s
+[Val] Epoch 2 Step 300 - Loss: 4.3471 - Elapsed time: 351.50s
+[Val] Epoch 2 Step 400 - Loss: 4.3525 - Elapsed time: 353.47s
+[Val] Epoch 2 Step 500 - Loss: 4.3784 - Elapsed time: 355.21s
+[Val] Epoch 2 completed - Loss: 4.3863 - Elapsed time: 356.16s
+
+==== Epoch 3/10 ====
+
+[Train] Epoch 3 Step 100 - Loss: 4.3511 - Elapsed time: 359.75s
+[Train] Epoch 3 Step 200 - Loss: 4.3567 - Elapsed time: 363.33s
+[Train] Epoch 3 Step 300 - Loss: 4.3547 - Elapsed time: 367.01s
+[Train] Epoch 3 Step 400 - Loss: 4.3548 - Elapsed time: 370.65s
+[Train] Epoch 3 Step 500 - Loss: 4.3548 - Elapsed time: 374.21s
+[Train] Epoch 3 Step 600 - Loss: 4.3541 - Elapsed time: 377.93s
+[Train] Epoch 3 Step 700 - Loss: 4.3538 - Elapsed time: 381.48s
+[Train] Epoch 3 Step 800 - Loss: 4.3551 - Elapsed time: 385.29s
+[Train] Epoch 3 Step 900 - Loss: 4.3533 - Elapsed time: 388.83s
+[Train] Epoch 3 Step 1000 - Loss: 4.3515 - Elapsed time: 392.44s
+[Train] Epoch 3 Step 1100 - Loss: 4.3508 - Elapsed time: 396.05s
+[Train] Epoch 3 Step 1200 - Loss: 4.3503 - Elapsed time: 399.65s
+[Train] Epoch 3 Step 1300 - Loss: 4.3489 - Elapsed time: 403.21s
+[Train] Epoch 3 Step 1400 - Loss: 4.3484 - Elapsed time: 406.81s
+[Train] Epoch 3 Step 1500 - Loss: 4.3468 - Elapsed time: 410.52s
+[Train] Epoch 3 Step 1600 - Loss: 4.3460 - Elapsed time: 414.10s
+[Train] Epoch 3 Step 1700 - Loss: 4.3453 - Elapsed time: 417.78s
+[Train] Epoch 3 Step 1800 - Loss: 4.3436 - Elapsed time: 421.49s
+[Train] Epoch 3 Step 1900 - Loss: 4.3416 - Elapsed time: 425.10s
+[Train] Epoch 3 Step 2000 - Loss: 4.3409 - Elapsed time: 428.79s
+[Train] Epoch 3 Step 2100 - Loss: 4.3403 - Elapsed time: 432.49s
+[Train] Epoch 3 Step 2200 - Loss: 4.3394 - Elapsed time: 436.14s
+[Train] Epoch 3 Step 2300 - Loss: 4.3388 - Elapsed time: 439.85s
+[Train] Epoch 3 Step 2400 - Loss: 4.3379 - Elapsed time: 443.55s
+[Train] Epoch 3 Step 2500 - Loss: 4.3367 - Elapsed time: 447.19s
+[Train] Epoch 3 Step 2600 - Loss: 4.3353 - Elapsed time: 450.72s
+[Train] Epoch 3 Step 2700 - Loss: 4.3341 - Elapsed time: 454.36s
+[Train] Epoch 3 Step 2800 - Loss: 4.3339 - Elapsed time: 458.06s
+[Train] Epoch 3 Step 2900 - Loss: 4.3323 - Elapsed time: 461.88s
+[Train] Epoch 3 Step 3000 - Loss: 4.3316 - Elapsed time: 465.61s
+[Train] Epoch 3 Step 3100 - Loss: 4.3309 - Elapsed time: 469.24s
+[Train] Epoch 3 Step 3200 - Loss: 4.3303 - Elapsed time: 472.88s
+[Train] Epoch 3 Step 3300 - Loss: 4.3297 - Elapsed time: 476.51s
+[Train] Epoch 3 Step 3400 - Loss: 4.3287 - Elapsed time: 480.04s
+[Train] Epoch 3 Step 3500 - Loss: 4.3278 - Elapsed time: 483.72s
+[Train] Epoch 3 Step 3600 - Loss: 4.3271 - Elapsed time: 487.43s
+[Train] Epoch 3 Step 3700 - Loss: 4.3261 - Elapsed time: 490.99s
+[Train] Epoch 3 Step 3800 - Loss: 4.3255 - Elapsed time: 494.50s
+[Train] Epoch 3 Step 3900 - Loss: 4.3247 - Elapsed time: 498.34s
+[Train] Epoch 3 Step 4000 - Loss: 4.3242 - Elapsed time: 501.94s
+[Train] Epoch 3 Step 4100 - Loss: 4.3232 - Elapsed time: 505.60s
+[Train] Epoch 3 Step 4200 - Loss: 4.3226 - Elapsed time: 509.24s
+[Train] Epoch 3 Step 4300 - Loss: 4.3213 - Elapsed time: 512.95s
+[Train] Epoch 3 Step 4400 - Loss: 4.3204 - Elapsed time: 516.39s
+[Train] Epoch 3 Step 4500 - Loss: 4.3197 - Elapsed time: 519.90s
+[Train] Epoch 3 completed - Loss: 4.3185 - Elapsed time: 523.45s
+
+[Val] Epoch 3 Step 100 - Loss: 4.2588 - Elapsed time: 525.32s
+[Val] Epoch 3 Step 200 - Loss: 4.2624 - Elapsed time: 527.32s
+[Val] Epoch 3 Step 300 - Loss: 4.2524 - Elapsed time: 529.13s
+[Val] Epoch 3 Step 400 - Loss: 4.2544 - Elapsed time: 531.09s
+[Val] Epoch 3 Step 500 - Loss: 4.2799 - Elapsed time: 532.83s
+[Val] Epoch 3 completed - Loss: 4.2868 - Elapsed time: 533.78s
+
+==== Epoch 4/10 ====
+
+[Train] Epoch 4 Step 100 - Loss: 4.2142 - Elapsed time: 537.42s
+[Train] Epoch 4 Step 200 - Loss: 4.2102 - Elapsed time: 540.92s
+[Train] Epoch 4 Step 300 - Loss: 4.2162 - Elapsed time: 544.55s
+[Train] Epoch 4 Step 400 - Loss: 4.2134 - Elapsed time: 548.38s
+[Train] Epoch 4 Step 500 - Loss: 4.2146 - Elapsed time: 551.93s
+[Train] Epoch 4 Step 600 - Loss: 4.2178 - Elapsed time: 555.61s
+[Train] Epoch 4 Step 700 - Loss: 4.2180 - Elapsed time: 559.27s
+[Train] Epoch 4 Step 800 - Loss: 4.2194 - Elapsed time: 563.00s
+[Train] Epoch 4 Step 900 - Loss: 4.2181 - Elapsed time: 566.56s
+[Train] Epoch 4 Step 1000 - Loss: 4.2199 - Elapsed time: 570.21s
+[Train] Epoch 4 Step 1100 - Loss: 4.2206 - Elapsed time: 573.82s
+[Train] Epoch 4 Step 1200 - Loss: 4.2197 - Elapsed time: 577.49s
+[Train] Epoch 4 Step 1300 - Loss: 4.2205 - Elapsed time: 581.32s
+[Train] Epoch 4 Step 1400 - Loss: 4.2200 - Elapsed time: 584.88s
+[Train] Epoch 4 Step 1500 - Loss: 4.2201 - Elapsed time: 588.63s
+[Train] Epoch 4 Step 1600 - Loss: 4.2200 - Elapsed time: 592.36s
+[Train] Epoch 4 Step 1700 - Loss: 4.2200 - Elapsed time: 595.92s
+[Train] Epoch 4 Step 1800 - Loss: 4.2192 - Elapsed time: 599.64s
+[Train] Epoch 4 Step 1900 - Loss: 4.2190 - Elapsed time: 603.24s
+[Train] Epoch 4 Step 2000 - Loss: 4.2183 - Elapsed time: 607.08s
+[Train] Epoch 4 Step 2100 - Loss: 4.2187 - Elapsed time: 610.74s
+[Train] Epoch 4 Step 2200 - Loss: 4.2190 - Elapsed time: 614.43s
+[Train] Epoch 4 Step 2300 - Loss: 4.2190 - Elapsed time: 618.12s
+[Train] Epoch 4 Step 2400 - Loss: 4.2184 - Elapsed time: 621.70s
+[Train] Epoch 4 Step 2500 - Loss: 4.2184 - Elapsed time: 625.42s
+[Train] Epoch 4 Step 2600 - Loss: 4.2184 - Elapsed time: 629.26s
+[Train] Epoch 4 Step 2700 - Loss: 4.2181 - Elapsed time: 632.77s
+[Train] Epoch 4 Step 2800 - Loss: 4.2180 - Elapsed time: 636.55s
+[Train] Epoch 4 Step 2900 - Loss: 4.2173 - Elapsed time: 640.01s
+[Train] Epoch 4 Step 3000 - Loss: 4.2171 - Elapsed time: 643.80s
+[Train] Epoch 4 Step 3100 - Loss: 4.2165 - Elapsed time: 647.36s
+[Train] Epoch 4 Step 3200 - Loss: 4.2160 - Elapsed time: 651.09s
+[Train] Epoch 4 Step 3300 - Loss: 4.2152 - Elapsed time: 654.66s
+[Train] Epoch 4 Step 3400 - Loss: 4.2156 - Elapsed time: 658.34s
+[Train] Epoch 4 Step 3500 - Loss: 4.2154 - Elapsed time: 661.93s
+[Train] Epoch 4 Step 3600 - Loss: 4.2149 - Elapsed time: 665.64s
+[Train] Epoch 4 Step 3700 - Loss: 4.2145 - Elapsed time: 669.20s
+[Train] Epoch 4 Step 3800 - Loss: 4.2142 - Elapsed time: 672.78s
+[Train] Epoch 4 Step 3900 - Loss: 4.2136 - Elapsed time: 676.35s
+[Train] Epoch 4 Step 4000 - Loss: 4.2128 - Elapsed time: 679.85s
+[Train] Epoch 4 Step 4100 - Loss: 4.2126 - Elapsed time: 683.64s
+[Train] Epoch 4 Step 4200 - Loss: 4.2123 - Elapsed time: 687.13s
+[Train] Epoch 4 Step 4300 - Loss: 4.2122 - Elapsed time: 690.81s
+[Train] Epoch 4 Step 4400 - Loss: 4.2119 - Elapsed time: 694.39s
+[Train] Epoch 4 Step 4500 - Loss: 4.2116 - Elapsed time: 698.04s
+[Train] Epoch 4 completed - Loss: 4.2113 - Elapsed time: 701.56s
+
+[Val] Epoch 4 Step 100 - Loss: 4.2056 - Elapsed time: 703.43s
+[Val] Epoch 4 Step 200 - Loss: 4.2097 - Elapsed time: 705.44s
+[Val] Epoch 4 Step 300 - Loss: 4.1983 - Elapsed time: 707.25s
+[Val] Epoch 4 Step 400 - Loss: 4.1994 - Elapsed time: 709.22s
+[Val] Epoch 4 Step 500 - Loss: 4.2246 - Elapsed time: 710.96s
+[Val] Epoch 4 completed - Loss: 4.2307 - Elapsed time: 711.90s
+
+==== Epoch 5/10 ====
+
+[Train] Epoch 5 Step 100 - Loss: 4.1322 - Elapsed time: 715.48s
+[Train] Epoch 5 Step 200 - Loss: 4.1327 - Elapsed time: 719.19s
+[Train] Epoch 5 Step 300 - Loss: 4.1325 - Elapsed time: 722.91s
+[Train] Epoch 5 Step 400 - Loss: 4.1351 - Elapsed time: 726.61s
+[Train] Epoch 5 Step 500 - Loss: 4.1327 - Elapsed time: 730.25s
+[Train] Epoch 5 Step 600 - Loss: 4.1355 - Elapsed time: 734.01s
+[Train] Epoch 5 Step 700 - Loss: 4.1339 - Elapsed time: 737.60s
+[Train] Epoch 5 Step 800 - Loss: 4.1363 - Elapsed time: 741.19s
+[Train] Epoch 5 Step 900 - Loss: 4.1347 - Elapsed time: 744.83s
+[Train] Epoch 5 Step 1000 - Loss: 4.1354 - Elapsed time: 748.58s
+[Train] Epoch 5 Step 1100 - Loss: 4.1359 - Elapsed time: 752.28s
+[Train] Epoch 5 Step 1200 - Loss: 4.1370 - Elapsed time: 756.04s
+[Train] Epoch 5 Step 1300 - Loss: 4.1384 - Elapsed time: 759.65s
+[Train] Epoch 5 Step 1400 - Loss: 4.1383 - Elapsed time: 763.28s
+[Train] Epoch 5 Step 1500 - Loss: 4.1384 - Elapsed time: 766.83s
+[Train] Epoch 5 Step 1600 - Loss: 4.1385 - Elapsed time: 770.44s
+[Train] Epoch 5 Step 1700 - Loss: 4.1391 - Elapsed time: 774.00s
+[Train] Epoch 5 Step 1800 - Loss: 4.1387 - Elapsed time: 777.59s
+[Train] Epoch 5 Step 1900 - Loss: 4.1390 - Elapsed time: 781.29s
+[Train] Epoch 5 Step 2000 - Loss: 4.1398 - Elapsed time: 784.93s
+[Train] Epoch 5 Step 2100 - Loss: 4.1406 - Elapsed time: 788.68s
+[Train] Epoch 5 Step 2200 - Loss: 4.1401 - Elapsed time: 792.28s
+[Train] Epoch 5 Step 2300 - Loss: 4.1400 - Elapsed time: 795.87s
+[Train] Epoch 5 Step 2400 - Loss: 4.1402 - Elapsed time: 799.49s
+[Train] Epoch 5 Step 2500 - Loss: 4.1400 - Elapsed time: 803.03s
+[Train] Epoch 5 Step 2600 - Loss: 4.1403 - Elapsed time: 806.80s
+[Train] Epoch 5 Step 2700 - Loss: 4.1402 - Elapsed time: 810.39s
+[Train] Epoch 5 Step 2800 - Loss: 4.1402 - Elapsed time: 814.05s
+[Train] Epoch 5 Step 2900 - Loss: 4.1409 - Elapsed time: 817.79s
+[Train] Epoch 5 Step 3000 - Loss: 4.1409 - Elapsed time: 821.33s
+[Train] Epoch 5 Step 3100 - Loss: 4.1408 - Elapsed time: 824.83s
+[Train] Epoch 5 Step 3200 - Loss: 4.1407 - Elapsed time: 828.44s
+[Train] Epoch 5 Step 3300 - Loss: 4.1403 - Elapsed time: 832.14s
+[Train] Epoch 5 Step 3400 - Loss: 4.1404 - Elapsed time: 835.84s
+[Train] Epoch 5 Step 3500 - Loss: 4.1409 - Elapsed time: 839.54s
+[Train] Epoch 5 Step 3600 - Loss: 4.1407 - Elapsed time: 843.11s
+[Train] Epoch 5 Step 3700 - Loss: 4.1405 - Elapsed time: 846.75s
+[Train] Epoch 5 Step 3800 - Loss: 4.1406 - Elapsed time: 850.35s
+[Train] Epoch 5 Step 3900 - Loss: 4.1405 - Elapsed time: 854.17s
+[Train] Epoch 5 Step 4000 - Loss: 4.1403 - Elapsed time: 857.67s
+[Train] Epoch 5 Step 4100 - Loss: 4.1402 - Elapsed time: 861.35s
+[Train] Epoch 5 Step 4200 - Loss: 4.1399 - Elapsed time: 864.95s
+[Train] Epoch 5 Step 4300 - Loss: 4.1399 - Elapsed time: 868.48s
+[Train] Epoch 5 Step 4400 - Loss: 4.1395 - Elapsed time: 872.10s
+[Train] Epoch 5 Step 4500 - Loss: 4.1394 - Elapsed time: 875.65s
+[Train] Epoch 5 completed - Loss: 4.1393 - Elapsed time: 879.11s
+
+[Val] Epoch 5 Step 100 - Loss: 4.1631 - Elapsed time: 880.98s
+[Val] Epoch 5 Step 200 - Loss: 4.1708 - Elapsed time: 882.99s
+[Val] Epoch 5 Step 300 - Loss: 4.1614 - Elapsed time: 884.80s
+[Val] Epoch 5 Step 400 - Loss: 4.1619 - Elapsed time: 886.76s
+[Val] Epoch 5 Step 500 - Loss: 4.1868 - Elapsed time: 888.50s
+[Val] Epoch 5 completed - Loss: 4.1925 - Elapsed time: 889.45s
+
+==== Epoch 6/10 ====
+
+[Train] Epoch 6 Step 100 - Loss: 4.0660 - Elapsed time: 893.01s
+[Train] Epoch 6 Step 200 - Loss: 4.0675 - Elapsed time: 896.54s
+[Train] Epoch 6 Step 300 - Loss: 4.0655 - Elapsed time: 900.29s
+[Train] Epoch 6 Step 400 - Loss: 4.0682 - Elapsed time: 904.02s
+[Train] Epoch 6 Step 500 - Loss: 4.0656 - Elapsed time: 907.64s
+[Train] Epoch 6 Step 600 - Loss: 4.0685 - Elapsed time: 911.33s
+[Train] Epoch 6 Step 700 - Loss: 4.0713 - Elapsed time: 915.04s
+[Train] Epoch 6 Step 800 - Loss: 4.0719 - Elapsed time: 918.75s
+[Train] Epoch 6 Step 900 - Loss: 4.0751 - Elapsed time: 922.35s
+[Train] Epoch 6 Step 1000 - Loss: 4.0756 - Elapsed time: 926.07s
+[Train] Epoch 6 Step 1100 - Loss: 4.0763 - Elapsed time: 929.70s
+[Train] Epoch 6 Step 1200 - Loss: 4.0771 - Elapsed time: 933.23s
+[Train] Epoch 6 Step 1300 - Loss: 4.0772 - Elapsed time: 936.93s
+[Train] Epoch 6 Step 1400 - Loss: 4.0776 - Elapsed time: 940.59s
+[Train] Epoch 6 Step 1500 - Loss: 4.0785 - Elapsed time: 944.36s
+[Train] Epoch 6 Step 1600 - Loss: 4.0790 - Elapsed time: 947.95s
+[Train] Epoch 6 Step 1700 - Loss: 4.0796 - Elapsed time: 951.41s
+[Train] Epoch 6 Step 1800 - Loss: 4.0794 - Elapsed time: 955.06s
+[Train] Epoch 6 Step 1900 - Loss: 4.0804 - Elapsed time: 958.62s
+[Train] Epoch 6 Step 2000 - Loss: 4.0813 - Elapsed time: 962.27s
+[Train] Epoch 6 Step 2100 - Loss: 4.0817 - Elapsed time: 965.88s
+[Train] Epoch 6 Step 2200 - Loss: 4.0816 - Elapsed time: 969.58s
+[Train] Epoch 6 Step 2300 - Loss: 4.0812 - Elapsed time: 973.22s
+[Train] Epoch 6 Step 2400 - Loss: 4.0818 - Elapsed time: 976.84s
+[Train] Epoch 6 Step 2500 - Loss: 4.0826 - Elapsed time: 980.41s
+[Train] Epoch 6 Step 2600 - Loss: 4.0826 - Elapsed time: 984.10s
+[Train] Epoch 6 Step 2700 - Loss: 4.0832 - Elapsed time: 987.74s
+[Train] Epoch 6 Step 2800 - Loss: 4.0833 - Elapsed time: 991.27s
+[Train] Epoch 6 Step 2900 - Loss: 4.0832 - Elapsed time: 994.85s
+[Train] Epoch 6 Step 3000 - Loss: 4.0837 - Elapsed time: 998.49s
+[Train] Epoch 6 Step 3100 - Loss: 4.0841 - Elapsed time: 1002.25s
+[Train] Epoch 6 Step 3200 - Loss: 4.0841 - Elapsed time: 1005.79s
+[Train] Epoch 6 Step 3300 - Loss: 4.0845 - Elapsed time: 1009.52s
+[Train] Epoch 6 Step 3400 - Loss: 4.0844 - Elapsed time: 1013.20s
+[Train] Epoch 6 Step 3500 - Loss: 4.0839 - Elapsed time: 1016.91s
+[Train] Epoch 6 Step 3600 - Loss: 4.0841 - Elapsed time: 1020.51s
+[Train] Epoch 6 Step 3700 - Loss: 4.0845 - Elapsed time: 1024.17s
+[Train] Epoch 6 Step 3800 - Loss: 4.0849 - Elapsed time: 1027.80s
+[Train] Epoch 6 Step 3900 - Loss: 4.0849 - Elapsed time: 1031.45s
+[Train] Epoch 6 Step 4000 - Loss: 4.0852 - Elapsed time: 1035.03s
+[Train] Epoch 6 Step 4100 - Loss: 4.0853 - Elapsed time: 1038.68s
+[Train] Epoch 6 Step 4200 - Loss: 4.0854 - Elapsed time: 1042.28s
+[Train] Epoch 6 Step 4300 - Loss: 4.0856 - Elapsed time: 1045.99s
+[Train] Epoch 6 Step 4400 - Loss: 4.0857 - Elapsed time: 1049.59s
+[Train] Epoch 6 Step 4500 - Loss: 4.0862 - Elapsed time: 1053.30s
+[Train] Epoch 6 completed - Loss: 4.0861 - Elapsed time: 1056.72s
+
+[Val] Epoch 6 Step 100 - Loss: 4.1382 - Elapsed time: 1058.60s
+[Val] Epoch 6 Step 200 - Loss: 4.1448 - Elapsed time: 1060.60s
+[Val] Epoch 6 Step 300 - Loss: 4.1340 - Elapsed time: 1062.41s
+[Val] Epoch 6 Step 400 - Loss: 4.1342 - Elapsed time: 1064.37s
+[Val] Epoch 6 Step 500 - Loss: 4.1598 - Elapsed time: 1066.11s
+[Val] Epoch 6 completed - Loss: 4.1648 - Elapsed time: 1067.06s
+
+==== Epoch 7/10 ====
+
+[Train] Epoch 7 Step 100 - Loss: 4.0202 - Elapsed time: 1070.73s
+[Train] Epoch 7 Step 200 - Loss: 4.0288 - Elapsed time: 1074.28s
+[Train] Epoch 7 Step 300 - Loss: 4.0265 - Elapsed time: 1077.86s
+[Train] Epoch 7 Step 400 - Loss: 4.0341 - Elapsed time: 1081.44s
+[Train] Epoch 7 Step 500 - Loss: 4.0344 - Elapsed time: 1085.04s
+[Train] Epoch 7 Step 600 - Loss: 4.0332 - Elapsed time: 1088.66s
+[Train] Epoch 7 Step 700 - Loss: 4.0327 - Elapsed time: 1092.30s
+[Train] Epoch 7 Step 800 - Loss: 4.0332 - Elapsed time: 1095.96s
+[Train] Epoch 7 Step 900 - Loss: 4.0345 - Elapsed time: 1099.55s
+[Train] Epoch 7 Step 1000 - Loss: 4.0358 - Elapsed time: 1103.25s
+[Train] Epoch 7 Step 1100 - Loss: 4.0371 - Elapsed time: 1106.93s
+[Train] Epoch 7 Step 1200 - Loss: 4.0366 - Elapsed time: 1110.67s
+[Train] Epoch 7 Step 1300 - Loss: 4.0384 - Elapsed time: 1114.24s
+[Train] Epoch 7 Step 1400 - Loss: 4.0380 - Elapsed time: 1117.95s
+[Train] Epoch 7 Step 1500 - Loss: 4.0376 - Elapsed time: 1121.36s
+[Train] Epoch 7 Step 1600 - Loss: 4.0380 - Elapsed time: 1124.91s
+[Train] Epoch 7 Step 1700 - Loss: 4.0381 - Elapsed time: 1128.58s
+[Train] Epoch 7 Step 1800 - Loss: 4.0390 - Elapsed time: 1132.15s
+[Train] Epoch 7 Step 1900 - Loss: 4.0396 - Elapsed time: 1135.72s
+[Train] Epoch 7 Step 2000 - Loss: 4.0401 - Elapsed time: 1139.30s
+[Train] Epoch 7 Step 2100 - Loss: 4.0405 - Elapsed time: 1142.95s
+[Train] Epoch 7 Step 2200 - Loss: 4.0413 - Elapsed time: 1146.60s
+[Train] Epoch 7 Step 2300 - Loss: 4.0412 - Elapsed time: 1150.07s
+[Train] Epoch 7 Step 2400 - Loss: 4.0416 - Elapsed time: 1153.84s
+[Train] Epoch 7 Step 2500 - Loss: 4.0422 - Elapsed time: 1157.60s
+[Train] Epoch 7 Step 2600 - Loss: 4.0421 - Elapsed time: 1161.25s
+[Train] Epoch 7 Step 2700 - Loss: 4.0424 - Elapsed time: 1164.79s
+[Train] Epoch 7 Step 2800 - Loss: 4.0423 - Elapsed time: 1168.27s
+[Train] Epoch 7 Step 2900 - Loss: 4.0427 - Elapsed time: 1171.93s
+[Train] Epoch 7 Step 3000 - Loss: 4.0424 - Elapsed time: 1175.69s
+[Train] Epoch 7 Step 3100 - Loss: 4.0423 - Elapsed time: 1179.23s
+[Train] Epoch 7 Step 3200 - Loss: 4.0422 - Elapsed time: 1182.98s
+[Train] Epoch 7 Step 3300 - Loss: 4.0424 - Elapsed time: 1186.69s
+[Train] Epoch 7 Step 3400 - Loss: 4.0426 - Elapsed time: 1190.27s
+[Train] Epoch 7 Step 3500 - Loss: 4.0430 - Elapsed time: 1193.92s
+[Train] Epoch 7 Step 3600 - Loss: 4.0428 - Elapsed time: 1197.53s
+[Train] Epoch 7 Step 3700 - Loss: 4.0432 - Elapsed time: 1201.21s
+[Train] Epoch 7 Step 3800 - Loss: 4.0432 - Elapsed time: 1204.86s
+[Train] Epoch 7 Step 3900 - Loss: 4.0434 - Elapsed time: 1208.48s
+[Train] Epoch 7 Step 4000 - Loss: 4.0435 - Elapsed time: 1212.13s
+[Train] Epoch 7 Step 4100 - Loss: 4.0440 - Elapsed time: 1215.79s
+[Train] Epoch 7 Step 4200 - Loss: 4.0441 - Elapsed time: 1219.38s
+[Train] Epoch 7 Step 4300 - Loss: 4.0444 - Elapsed time: 1223.00s
+[Train] Epoch 7 Step 4400 - Loss: 4.0449 - Elapsed time: 1226.73s
+[Train] Epoch 7 Step 4500 - Loss: 4.0449 - Elapsed time: 1230.38s
+[Train] Epoch 7 completed - Loss: 4.0452 - Elapsed time: 1233.90s
+
+[Val] Epoch 7 Step 100 - Loss: 4.1210 - Elapsed time: 1235.77s
+[Val] Epoch 7 Step 200 - Loss: 4.1291 - Elapsed time: 1237.77s
+[Val] Epoch 7 Step 300 - Loss: 4.1176 - Elapsed time: 1239.58s
+[Val] Epoch 7 Step 400 - Loss: 4.1169 - Elapsed time: 1241.55s
+[Val] Epoch 7 Step 500 - Loss: 4.1418 - Elapsed time: 1243.28s
+[Val] Epoch 7 completed - Loss: 4.1472 - Elapsed time: 1244.23s
+
+==== Epoch 8/10 ====
+
+[Train] Epoch 8 Step 100 - Loss: 3.9973 - Elapsed time: 1247.85s
+[Train] Epoch 8 Step 200 - Loss: 4.0040 - Elapsed time: 1251.58s
+[Train] Epoch 8 Step 300 - Loss: 3.9977 - Elapsed time: 1255.16s
+[Train] Epoch 8 Step 400 - Loss: 3.9961 - Elapsed time: 1258.79s
+[Train] Epoch 8 Step 500 - Loss: 3.9989 - Elapsed time: 1262.61s
+[Train] Epoch 8 Step 600 - Loss: 3.9972 - Elapsed time: 1266.17s
+[Train] Epoch 8 Step 700 - Loss: 3.9975 - Elapsed time: 1269.89s
+[Train] Epoch 8 Step 800 - Loss: 3.9979 - Elapsed time: 1273.45s
+[Train] Epoch 8 Step 900 - Loss: 3.9993 - Elapsed time: 1277.09s
+[Train] Epoch 8 Step 1000 - Loss: 4.0011 - Elapsed time: 1280.66s
+[Train] Epoch 8 Step 1100 - Loss: 4.0021 - Elapsed time: 1284.41s
+[Train] Epoch 8 Step 1200 - Loss: 4.0032 - Elapsed time: 1288.11s
+[Train] Epoch 8 Step 1300 - Loss: 4.0031 - Elapsed time: 1291.74s
+[Train] Epoch 8 Step 1400 - Loss: 4.0022 - Elapsed time: 1295.34s
+[Train] Epoch 8 Step 1500 - Loss: 4.0029 - Elapsed time: 1298.97s
+[Train] Epoch 8 Step 1600 - Loss: 4.0034 - Elapsed time: 1302.56s
+[Train] Epoch 8 Step 1700 - Loss: 4.0040 - Elapsed time: 1306.32s
+[Train] Epoch 8 Step 1800 - Loss: 4.0042 - Elapsed time: 1309.98s
+[Train] Epoch 8 Step 1900 - Loss: 4.0042 - Elapsed time: 1313.56s
+[Train] Epoch 8 Step 2000 - Loss: 4.0038 - Elapsed time: 1317.06s
+[Train] Epoch 8 Step 2100 - Loss: 4.0036 - Elapsed time: 1320.72s
+[Train] Epoch 8 Step 2200 - Loss: 4.0038 - Elapsed time: 1324.23s
+[Train] Epoch 8 Step 2300 - Loss: 4.0047 - Elapsed time: 1328.00s
+[Train] Epoch 8 Step 2400 - Loss: 4.0049 - Elapsed time: 1331.68s
+[Train] Epoch 8 Step 2500 - Loss: 4.0046 - Elapsed time: 1335.36s
+[Train] Epoch 8 Step 2600 - Loss: 4.0054 - Elapsed time: 1339.02s
+[Train] Epoch 8 Step 2700 - Loss: 4.0059 - Elapsed time: 1342.56s
+[Train] Epoch 8 Step 2800 - Loss: 4.0067 - Elapsed time: 1346.15s
+[Train] Epoch 8 Step 2900 - Loss: 4.0073 - Elapsed time: 1349.97s
+[Train] Epoch 8 Step 3000 - Loss: 4.0079 - Elapsed time: 1353.57s
+[Train] Epoch 8 Step 3100 - Loss: 4.0080 - Elapsed time: 1357.18s
+[Train] Epoch 8 Step 3200 - Loss: 4.0083 - Elapsed time: 1360.83s
+[Train] Epoch 8 Step 3300 - Loss: 4.0091 - Elapsed time: 1364.53s
+[Train] Epoch 8 Step 3400 - Loss: 4.0090 - Elapsed time: 1368.12s
+[Train] Epoch 8 Step 3500 - Loss: 4.0095 - Elapsed time: 1371.68s
+[Train] Epoch 8 Step 3600 - Loss: 4.0101 - Elapsed time: 1375.41s
+[Train] Epoch 8 Step 3700 - Loss: 4.0101 - Elapsed time: 1379.12s
+[Train] Epoch 8 Step 3800 - Loss: 4.0100 - Elapsed time: 1382.60s
+[Train] Epoch 8 Step 3900 - Loss: 4.0103 - Elapsed time: 1386.34s
+[Train] Epoch 8 Step 4000 - Loss: 4.0103 - Elapsed time: 1390.01s
+[Train] Epoch 8 Step 4100 - Loss: 4.0106 - Elapsed time: 1393.69s
+[Train] Epoch 8 Step 4200 - Loss: 4.0106 - Elapsed time: 1397.30s
+[Train] Epoch 8 Step 4300 - Loss: 4.0106 - Elapsed time: 1400.91s
+[Train] Epoch 8 Step 4400 - Loss: 4.0110 - Elapsed time: 1404.62s
+[Train] Epoch 8 Step 4500 - Loss: 4.0114 - Elapsed time: 1408.28s
+[Train] Epoch 8 completed - Loss: 4.0116 - Elapsed time: 1411.75s
+
+[Val] Epoch 8 Step 100 - Loss: 4.1036 - Elapsed time: 1413.64s
+[Val] Epoch 8 Step 200 - Loss: 4.1123 - Elapsed time: 1415.65s
+[Val] Epoch 8 Step 300 - Loss: 4.1008 - Elapsed time: 1417.46s
+[Val] Epoch 8 Step 400 - Loss: 4.1005 - Elapsed time: 1419.43s
+[Val] Epoch 8 Step 500 - Loss: 4.1255 - Elapsed time: 1421.17s
+[Val] Epoch 8 completed - Loss: 4.1307 - Elapsed time: 1422.12s
+
+==== Epoch 9/10 ====
+
+[Train] Epoch 9 Step 100 - Loss: 3.9654 - Elapsed time: 1425.68s
+[Train] Epoch 9 Step 200 - Loss: 3.9604 - Elapsed time: 1429.31s
+[Train] Epoch 9 Step 300 - Loss: 3.9617 - Elapsed time: 1432.93s
+[Train] Epoch 9 Step 400 - Loss: 3.9623 - Elapsed time: 1436.58s
+[Train] Epoch 9 Step 500 - Loss: 3.9652 - Elapsed time: 1440.29s
+[Train] Epoch 9 Step 600 - Loss: 3.9652 - Elapsed time: 1444.02s
+[Train] Epoch 9 Step 700 - Loss: 3.9661 - Elapsed time: 1447.62s
+[Train] Epoch 9 Step 800 - Loss: 3.9673 - Elapsed time: 1451.20s
+[Train] Epoch 9 Step 900 - Loss: 3.9689 - Elapsed time: 1454.75s
+[Train] Epoch 9 Step 1000 - Loss: 3.9689 - Elapsed time: 1458.37s
+[Train] Epoch 9 Step 1100 - Loss: 3.9700 - Elapsed time: 1462.16s
+[Train] Epoch 9 Step 1200 - Loss: 3.9708 - Elapsed time: 1465.74s
+[Train] Epoch 9 Step 1300 - Loss: 3.9714 - Elapsed time: 1469.28s
+[Train] Epoch 9 Step 1400 - Loss: 3.9706 - Elapsed time: 1472.80s
+[Train] Epoch 9 Step 1500 - Loss: 3.9725 - Elapsed time: 1476.45s
+[Train] Epoch 9 Step 1600 - Loss: 3.9731 - Elapsed time: 1480.03s
+[Train] Epoch 9 Step 1700 - Loss: 3.9738 - Elapsed time: 1483.72s
+[Train] Epoch 9 Step 1800 - Loss: 3.9742 - Elapsed time: 1487.29s
+[Train] Epoch 9 Step 1900 - Loss: 3.9757 - Elapsed time: 1490.97s
+[Train] Epoch 9 Step 2000 - Loss: 3.9762 - Elapsed time: 1494.50s
+[Train] Epoch 9 Step 2100 - Loss: 3.9767 - Elapsed time: 1498.10s
+[Train] Epoch 9 Step 2200 - Loss: 3.9769 - Elapsed time: 1501.59s
+[Train] Epoch 9 Step 2300 - Loss: 3.9774 - Elapsed time: 1505.24s
+[Train] Epoch 9 Step 2400 - Loss: 3.9774 - Elapsed time: 1508.83s
+[Train] Epoch 9 Step 2500 - Loss: 3.9777 - Elapsed time: 1512.57s
+[Train] Epoch 9 Step 2600 - Loss: 3.9781 - Elapsed time: 1516.25s
+[Train] Epoch 9 Step 2700 - Loss: 3.9789 - Elapsed time: 1519.95s
+[Train] Epoch 9 Step 2800 - Loss: 3.9785 - Elapsed time: 1523.73s
+[Train] Epoch 9 Step 2900 - Loss: 3.9788 - Elapsed time: 1527.39s
+[Train] Epoch 9 Step 3000 - Loss: 3.9790 - Elapsed time: 1530.98s
+[Train] Epoch 9 Step 3100 - Loss: 3.9795 - Elapsed time: 1534.71s
+[Train] Epoch 9 Step 3200 - Loss: 3.9801 - Elapsed time: 1538.30s
+[Train] Epoch 9 Step 3300 - Loss: 3.9800 - Elapsed time: 1541.91s
+[Train] Epoch 9 Step 3400 - Loss: 3.9804 - Elapsed time: 1545.52s
+[Train] Epoch 9 Step 3500 - Loss: 3.9809 - Elapsed time: 1549.20s
+[Train] Epoch 9 Step 3600 - Loss: 3.9813 - Elapsed time: 1552.86s
+[Train] Epoch 9 Step 3700 - Loss: 3.9816 - Elapsed time: 1556.48s
+[Train] Epoch 9 Step 3800 - Loss: 3.9813 - Elapsed time: 1560.08s
+[Train] Epoch 9 Step 3900 - Loss: 3.9814 - Elapsed time: 1563.90s
+[Train] Epoch 9 Step 4000 - Loss: 3.9817 - Elapsed time: 1567.51s
+[Train] Epoch 9 Step 4100 - Loss: 3.9816 - Elapsed time: 1571.12s
+[Train] Epoch 9 Step 4200 - Loss: 3.9819 - Elapsed time: 1574.80s
+[Train] Epoch 9 Step 4300 - Loss: 3.9823 - Elapsed time: 1578.44s
+[Train] Epoch 9 Step 4400 - Loss: 3.9828 - Elapsed time: 1582.04s
+[Train] Epoch 9 Step 4500 - Loss: 3.9832 - Elapsed time: 1585.70s
+[Train] Epoch 9 completed - Loss: 3.9833 - Elapsed time: 1589.33s
+
+[Val] Epoch 9 Step 100 - Loss: 4.0941 - Elapsed time: 1591.20s
+[Val] Epoch 9 Step 200 - Loss: 4.1036 - Elapsed time: 1593.21s
+[Val] Epoch 9 Step 300 - Loss: 4.0912 - Elapsed time: 1595.02s
+[Val] Epoch 9 Step 400 - Loss: 4.0909 - Elapsed time: 1596.98s
+[Val] Epoch 9 Step 500 - Loss: 4.1156 - Elapsed time: 1598.71s
+[Val] Epoch 9 completed - Loss: 4.1207 - Elapsed time: 1599.66s
+
+==== Epoch 10/10 ====
+
+[Train] Epoch 10 Step 100 - Loss: 3.9223 - Elapsed time: 1603.22s
+[Train] Epoch 10 Step 200 - Loss: 3.9260 - Elapsed time: 1606.86s
+[Train] Epoch 10 Step 300 - Loss: 3.9294 - Elapsed time: 1610.55s
+[Train] Epoch 10 Step 400 - Loss: 3.9279 - Elapsed time: 1614.22s
+[Train] Epoch 10 Step 500 - Loss: 3.9302 - Elapsed time: 1617.75s
+[Train] Epoch 10 Step 600 - Loss: 3.9322 - Elapsed time: 1621.37s
+[Train] Epoch 10 Step 700 - Loss: 3.9348 - Elapsed time: 1624.93s
+[Train] Epoch 10 Step 800 - Loss: 3.9351 - Elapsed time: 1628.56s
+[Train] Epoch 10 Step 900 - Loss: 3.9350 - Elapsed time: 1632.16s
+[Train] Epoch 10 Step 1000 - Loss: 3.9360 - Elapsed time: 1635.81s
+[Train] Epoch 10 Step 1100 - Loss: 3.9363 - Elapsed time: 1639.44s
+[Train] Epoch 10 Step 1200 - Loss: 3.9367 - Elapsed time: 1642.97s
+[Train] Epoch 10 Step 1300 - Loss: 3.9386 - Elapsed time: 1646.65s
+[Train] Epoch 10 Step 1400 - Loss: 3.9395 - Elapsed time: 1650.19s
+[Train] Epoch 10 Step 1500 - Loss: 3.9409 - Elapsed time: 1653.83s
+[Train] Epoch 10 Step 1600 - Loss: 3.9417 - Elapsed time: 1657.41s
+[Train] Epoch 10 Step 1700 - Loss: 3.9419 - Elapsed time: 1661.11s
+[Train] Epoch 10 Step 1800 - Loss: 3.9418 - Elapsed time: 1664.61s
+[Train] Epoch 10 Step 1900 - Loss: 3.9425 - Elapsed time: 1668.11s
+[Train] Epoch 10 Step 2000 - Loss: 3.9432 - Elapsed time: 1671.76s
+[Train] Epoch 10 Step 2100 - Loss: 3.9447 - Elapsed time: 1675.23s
+[Train] Epoch 10 Step 2200 - Loss: 3.9461 - Elapsed time: 1678.90s
+[Train] Epoch 10 Step 2300 - Loss: 3.9470 - Elapsed time: 1682.71s
+[Train] Epoch 10 Step 2400 - Loss: 3.9475 - Elapsed time: 1686.59s
+[Train] Epoch 10 Step 2500 - Loss: 3.9481 - Elapsed time: 1690.27s
+[Train] Epoch 10 Step 2600 - Loss: 3.9485 - Elapsed time: 1693.95s
+[Train] Epoch 10 Step 2700 - Loss: 3.9495 - Elapsed time: 1697.66s
+[Train] Epoch 10 Step 2800 - Loss: 3.9499 - Elapsed time: 1701.24s
+[Train] Epoch 10 Step 2900 - Loss: 3.9504 - Elapsed time: 1704.99s
+[Train] Epoch 10 Step 3000 - Loss: 3.9510 - Elapsed time: 1708.57s
+[Train] Epoch 10 Step 3100 - Loss: 3.9515 - Elapsed time: 1712.38s
+[Train] Epoch 10 Step 3200 - Loss: 3.9525 - Elapsed time: 1716.15s
+[Train] Epoch 10 Step 3300 - Loss: 3.9529 - Elapsed time: 1719.80s
+[Train] Epoch 10 Step 3400 - Loss: 3.9537 - Elapsed time: 1723.43s
+[Train] Epoch 10 Step 3500 - Loss: 3.9542 - Elapsed time: 1727.21s
+[Train] Epoch 10 Step 3600 - Loss: 3.9546 - Elapsed time: 1730.91s
+[Train] Epoch 10 Step 3700 - Loss: 3.9553 - Elapsed time: 1734.58s
+[Train] Epoch 10 Step 3800 - Loss: 3.9560 - Elapsed time: 1738.25s
+[Train] Epoch 10 Step 3900 - Loss: 3.9567 - Elapsed time: 1741.88s
+[Train] Epoch 10 Step 4000 - Loss: 3.9571 - Elapsed time: 1745.49s
+[Train] Epoch 10 Step 4100 - Loss: 3.9574 - Elapsed time: 1749.09s
+[Train] Epoch 10 Step 4200 - Loss: 3.9583 - Elapsed time: 1752.64s
+[Train] Epoch 10 Step 4300 - Loss: 3.9585 - Elapsed time: 1756.46s
+[Train] Epoch 10 Step 4400 - Loss: 3.9586 - Elapsed time: 1760.06s
+[Train] Epoch 10 Step 4500 - Loss: 3.9591 - Elapsed time: 1763.69s
+[Train] Epoch 10 completed - Loss: 3.9595 - Elapsed time: 1767.31s
+
+[Val] Epoch 10 Step 100 - Loss: 4.0848 - Elapsed time: 1769.19s
+[Val] Epoch 10 Step 200 - Loss: 4.0958 - Elapsed time: 1771.20s
+[Val] Epoch 10 Step 300 - Loss: 4.0834 - Elapsed time: 1773.02s
+[Val] Epoch 10 Step 400 - Loss: 4.0816 - Elapsed time: 1774.99s
+[Val] Epoch 10 Step 500 - Loss: 4.1061 - Elapsed time: 1776.74s
+[Val] Epoch 10 completed - Loss: 4.1110 - Elapsed time: 1777.69s
+Saving to ./ten_epoch_model.
