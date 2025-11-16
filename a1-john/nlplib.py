@@ -403,3 +403,32 @@ class A1Trainer:
         
         print(f'Saving to {args.output_dir}.')
         self.model.save_pretrained(args.output_dir)
+
+
+
+def predict_next_word(model, tokenizer, text, k=5):
+    print(f'The prompt: {text}')
+
+
+    model.eval()
+    
+    tokenized = tokenizer([text], return_tensors="pt")
+
+    input_ids = tokenized.input_ids
+
+    with torch.no_grad():
+        logits = model(input_ids)
+
+    last_word_token_logits = logits[0, -2, :]
+
+    probs = torch.softmax(last_word_token_logits, dim=0)
+    top_k_probs, top_k_indices = torch.topk(probs, k)
+
+    int_to_srt = tokenizer.int_to_str
+
+    print(f'Top {k} words after the prompt: ')
+    for i in range(k):
+        token_id = top_k_indices[i].item()
+        word = int_to_srt[token_id]
+        prob = top_k_probs[i].item()
+        print(f'{i+1}. {word}, ID: {token_id}, Probability: {prob}')
