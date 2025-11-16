@@ -1,0 +1,10 @@
+Perplexity on test set: 61.82007814353584
+Predicting next word...
+===================================
+The prompt: He lives in Los
+Top 5 words after the prompt: 
+1. angeles, ID: 2687, Probability: 0.9176902174949646
+2. <UNK>, ID: 1, Probability: 0.07216715812683105
+3. arbor, ID: 5460, Probability: 0.0004284581227693707
+4. de, ID: 198, Probability: 0.0003102160117123276
+5. and, ID: 8, Probability: 0.0003097538137808442
