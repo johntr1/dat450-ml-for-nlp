@@ -24,7 +24,7 @@ tokenizer.save("tokenizer.json")
 tokenizer = A1Tokenizer.from_file("tokenizer.pkl")
 
 cfg = A2ModelConfig(
-        vocab_size=15000,
+        vocab_size=10000,
         hidden_size=64,
         intermediate_size=256,
         num_attention_heads=8,
@@ -36,8 +36,8 @@ cfg = A2ModelConfig(
 model = A2Transformer(cfg)
 
 args = TrainingArguments(
-    output_dir="./a2_model_attn_mask",
-    num_train_epochs=15, 
+    output_dir="./a2_model_attn_mask_fixed",
+    num_train_epochs=10, 
     per_device_train_batch_size=64,
     per_device_eval_batch_size=64,
     optim="adamw_torch",

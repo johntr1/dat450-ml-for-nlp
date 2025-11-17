@@ -107,12 +107,11 @@ class A2Attention(nn.Module):
         
         # applying rope to q, k
         q, k = apply_rotary_pos_emb(q, k, rope_rotations, unsqueeze_dim=1)
-        padding_mask = None
         if attn_mask is not None:
-            padding_mask = (attn_mask == 0)
-            padding_mask = padding_mask.unsqueeze(1).unsqueeze(2)
+            attn_mask = attn_mask.to(dtype=torch.bool)
+            attn_mask = attn_mask.unsqueeze(1).unsqueeze(2)
 
-        attn_output = F.scaled_dot_product_attention(q, k, v, attn_mask=padding_mask, dropout_p=0.0, is_causal=True)
+        attn_output = F.scaled_dot_product_attention(q, k, v, attn_mask=attn_mask, dropout_p=0.0, is_causal=True)
         
         attn_output = self._merge_heads(attn_output) # (batch_size, seq_length, hidden_size)
 
