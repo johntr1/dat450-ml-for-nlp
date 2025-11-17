@@ -1,0 +1,5 @@
+slurm-*
+
+
+*.pyc
+*.ipynb_checkpoints
