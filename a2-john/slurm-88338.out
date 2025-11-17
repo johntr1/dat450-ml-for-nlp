@@ -1,0 +1,20 @@
+Perplexity on test set: 64.38757467429053
+Predicting next word...
+===================================
+The prompt: He lives in Los
+Top 5 words after the prompt: 
+1. angeles, ID: 2687, Probability: 0.9522544145584106
+2. <UNK>, ID: 1, Probability: 0.040321044623851776
+3. diego, ID: 4980, Probability: 0.0004769297083839774
+4. al, ID: 1862, Probability: 0.00035691916127689183
+5. rico, ID: 8975, Probability: 0.00030203527421690524
+Generating text...
+===================================
+Traceback (most recent call last):
+  File "/data/users/martindi/dat450-ml-for-nlp/a2-john/eval.py", line 152, in <module>
+    main() 
+    ^^^^^^
+  File "/data/users/martindi/dat450-ml-for-nlp/a2-john/eval.py", line 142, in main
+    generated1 = generate_text(model, tokenizer, prompt1, max_length=50, temperature=0.8, top_k=10)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: generate_text() got an unexpected keyword argument 'top_k'

@@ -1,0 +1,18 @@
+Perplexity on test set: 64.38757467429053
+Predicting next word...
+===================================
+The prompt: He lives in Los
+Top 5 words after the prompt: 
+1. angeles, ID: 2687, Probability: 0.9522544145584106
+2. <UNK>, ID: 1, Probability: 0.040321044623851776
+3. diego, ID: 4980, Probability: 0.0004769297083839774
+4. al, ID: 1862, Probability: 0.00035691916127689183
+5. rico, ID: 8975, Probability: 0.00030203527421690524
+Generating text...
+===================================
+With k: 10 and Temperature: 0.8. The prompt: In natural language processing, a Transformer
+Text generated: <BOS> in natural language processing , a <UNK> <EOS> is ( often and in <UNK> other or languages older and than <UNK> in ' the , way <UNK> that to have define an its abstraction <UNK> from or it into ; other a things number such of for <UNK> each to ( <UNK> such ' as or , if
+With k: 10 and Temperature: 0.8. The prompt: Is Stockholm the capital of Sweden? Answer yes or no. The answer is
+Text generated: <BOS> is stockholm the capital of sweden ? answer yes or no . the answer is <EOS> <UNK> on by a an number erdős of $ `` 5 c billion '' ... with , this <UNK> is , an and <UNK> more of `` that e can be think the . best <UNK> note is that that this `` may k n't '' a be `` infinite
+With k: 10 and Temperature: 0.8. The prompt: Write a Python program that reverses a list.
+Text generated: <BOS> write a <UNK> program that <UNK> a list . <EOS> in <UNK> addition , are he written and on <UNK> a in single the manner program <UNK> and <UNK> a to number play a a set single . player he , <UNK> who a has program not in to his see <UNK> of . an a actor single in <UNK>
