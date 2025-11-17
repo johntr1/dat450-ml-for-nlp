@@ -1,0 +1,19 @@
+The model used is: ./a2_model
+Perplexity on test set: 64.38755616944407
+Predicting next word...
+===================================
+The prompt: He lives in San
+Top 5 words after the prompt: 
+1. in, ID: 9, Probability: 0.2368251085281372
+2. ,, ID: 5, Probability: 0.15718869864940643
+3. and, ID: 8, Probability: 0.09582799673080444
+4. where, ID: 88, Probability: 0.03875938802957535
+5. on, ID: 23, Probability: 0.03209630399942398
+Generating text...
+===================================
+With k: 10 and Temperature: 0.8. The prompt: In natural language processing, a Transformer
+Text generated: <BOS> in natural language processing , a <UNK> <EOS> system can has easily a developed single form class ( and e.g. is it in in <UNK> order language and ( to or form <UNK> one ) , ; which the , language it or may can be only used <UNK> using to the form same of . any for
+With k: 10 and Temperature: 0.8. The prompt: Is Stockholm the capital of Sweden? Answer yes or no. The answer is
+Text generated: <BOS> is stockholm the capital of sweden ? answer yes or no . the answer is <EOS> , ( but <UNK> a is number not , necessarily as the an lowest element number . of the that <UNK> the and <UNK> lowest numbers in of the all second the . value ) for the a average list amount can is take that , <UNK> however <UNK> are
+With k: 10 and Temperature: 0.8. The prompt: Write a Python program that reverses a list.
+Text generated: <BOS> write a <UNK> program that <UNK> a list . <EOS> he , is <UNK> in and `` that '' <UNK> , is and <UNK> it in <UNK> order . <UNK> it can was use an to algorithm describe <UNK> an and idea abstract to of the the algorithm programmer ( <UNK> a to few <UNK> or or <UNK> as in

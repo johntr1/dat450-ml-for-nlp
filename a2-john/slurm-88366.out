@@ -1,7 +1,0 @@
-Loading Dataset...
-Dataset Loaded Successfully
-Starting Training...
-Device: cuda
-
-==== Epoch 1/15 ====
-[Train] Epoch 1 Step 100 - Loss: 5.9789 - Elapsed time: 5.06s[Train] Epoch 1 Step 200 - Loss: 5.7102 - Elapsed time: 9.79s[Train] Epoch 1 Step 300 - Loss: 5.5914 - Elapsed time: 14.65sslurmstepd-uranus: error: *** JOB 88366 ON uranus CANCELLED AT 2025-11-17T20:45:03 ***

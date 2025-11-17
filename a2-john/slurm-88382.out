@@ -1,0 +1,18 @@
+Perplexity on test set: 2020.0441436512156
+Predicting next word...
+===================================
+The prompt: He lives in Los
+Top 5 words after the prompt: 
+1. use, ID: 81, Probability: 0.06229068711400032
+2. the, ID: 4, Probability: 0.04358565807342529
+3. <UNK>, ID: 1, Probability: 0.04329949617385864
+4. coordinates, ID: 3261, Probability: 0.026544881984591484
+5. equilibrium, ID: 3187, Probability: 0.01439590658992529
+Generating text...
+===================================
+With k: 10 and Temperature: 0.8. The prompt: In natural language processing, a Transformer
+Text generated: <BOS> in natural language processing , a <UNK> <EOS> origins range . . come this practice , <UNK> model form , form model form range .
+With k: 10 and Temperature: 0.8. The prompt: Is Stockholm the capital of Sweden? Answer yes or no. The answer is
+Text generated: <BOS> is stockholm the capital of sweden ? answer yes or no . the answer is <EOS> use use groups and use upon buddhism a as about enzymes and reactions upon about vaginal transmission on sources on suggests geography astrology the and cuisine on include assessment use scientists chemotherapy however transmission use pressure this geography comment together the as carbonate on from assessment use depiction the on
+With k: 10 and Temperature: 0.8. The prompt: Write a Python program that reverses a list.
+Text generated: <BOS> write a <UNK> program that <UNK> a list . <EOS> <UNK> reported reported cited geography the <UNK> the all <UNK> euclidean <UNK> particular the practice use times a the search <UNK> question conducted use a the period response times , , this conducted response response room response periods response periods boiling conjunction certificate room diet particular tuned discussing rapidly certain

@@ -388,7 +388,7 @@ class A1Trainer:
                     encoding = self.tokenizer(val_batch['text'], truncation=True, padding=True, return_tensors="pt")
 
                     input_ids = encoding.input_ids.to(device)
-                    attn_mask = encoding.attention_mask.to(device)
+                    attention_mask = encoding.attention_mask.to(device)
 
                     X_val = input_ids[:, :-1]
                     Y_val = input_ids[:, 1:]

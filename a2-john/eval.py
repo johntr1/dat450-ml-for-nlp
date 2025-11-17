@@ -113,23 +113,25 @@ def evaluate_perplexity(model, dataloader, tokenizer, device: torch.device, pad_
     
 def main():
     # load the model, tokenizer, and dataloader here
-    model = A2Transformer.from_pretrained("./a2_model_advanced",
+    model_file = "./a2_model_advanced"
+    model = A2Transformer.from_pretrained(model_file,
                                         local_files_only=True,
                                         use_safetensors=True)
     dataset = load_dataset("text", data_files={"test": "/data/courses/2025_dat450_dit247/assignments/a1/val.txt"})
     dataset = dataset.filter(lambda x: x['text'].strip() != '')
 
-    tokenizer = A1Tokenizer.from_file("tokenizer.pkl")    
+    tokenizer = A1Tokenizer.from_file("tokenizer.pkl")
 
     dataloader = DataLoader(dataset["test"], batch_size=32, shuffle=False)
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     ppl = evaluate_perplexity(model, dataloader, tokenizer, device, pad_id=tokenizer.pad_token_id)
+    print(f'The model used is: {model_file}')
     print(f"Perplexity on test set: {ppl}")
 
     print("Predicting next word...")
     print("===================================")
-    prompt = "He lives in Los"
+    prompt = "He lives in San"
     predict_next_word(model, tokenizer, prompt)
 
 

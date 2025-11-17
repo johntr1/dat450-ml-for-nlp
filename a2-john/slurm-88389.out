@@ -1,0 +1,19 @@
+The model used is: ./a2_model_attn_mask
+Perplexity on test set: 2020.043122612638
+Predicting next word...
+===================================
+The prompt: He lives in San
+Top 5 words after the prompt: 
+1. the, ID: 4, Probability: 0.13077622652053833
+2. <UNK>, ID: 1, Probability: 0.05191652849316597
+3. use, ID: 81, Probability: 0.04601385444402695
+4. coordinates, ID: 3261, Probability: 0.026425901800394058
+5. this, ID: 35, Probability: 0.01573299989104271
+Generating text...
+===================================
+With k: 10 and Temperature: 0.8. The prompt: In natural language processing, a Transformer
+Text generated: <BOS> in natural language processing , a <UNK> <EOS> and fund origins <UNK> . access release use range the , use come . '' , ) name , <UNK> <UNK> construct use this and framework use and range compare name blend <UNK> and , use far range range far guide and and framework :
+With k: 10 and Temperature: 0.8. The prompt: Is Stockholm the capital of Sweden? Answer yes or no. The answer is
+Text generated: <BOS> is stockholm the capital of sweden ? answer yes or no . the answer is <EOS> about enzymes and content scientists scientists and use scientists this and and about use the have practice range use & crochet divide suggests about which the use practice use the scientists use including buddhism scientists about geography scientists describe display geography catalysts and and divide convert funded machinery use &
+With k: 10 and Temperature: 0.8. The prompt: Write a Python program that reverses a list.
+Text generated: <BOS> write a <UNK> program that <UNK> a list . <EOS> identified reported born reported periods periods a a proprietary certain theaters circumstances search question emitted emitted meditation response describing to captivity expressing conducted perceptions perceptions inorganic perceptions discussing synthesis discussing discussing preparation meditation prevention additive additive euclidean meditation synthesis all machinery undertaken synthesis search synthesis discussing machinery perceptions tract synthesis

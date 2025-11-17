@@ -1,0 +1,19 @@
+The model used is: ./a2_model_advanced
+Perplexity on test set: 60.53417502959186
+Predicting next word...
+===================================
+The prompt: He lives in San
+Top 5 words after the prompt: 
+1. ,, ID: 5, Probability: 0.24914366006851196
+2. and, ID: 8, Probability: 0.1741417497396469
+3. in, ID: 9, Probability: 0.10514582693576813
+4. ., ID: 6, Probability: 0.09804839640855789
+5. at, ID: 32, Probability: 0.04310639575123787
+Generating text...
+===================================
+With k: 10 and Temperature: 0.8. The prompt: In natural language processing, a Transformer
+Text generated: <BOS> in natural language processing , a <UNK> <EOS> language , may and have is <UNK> more with often an a efficient <UNK> or of <UNK> an information entire that program are to not make use them of to a identify <UNK> <UNK> language in or particular of or the <UNK> <UNK> code . and this for method a
+With k: 10 and Temperature: 0.8. The prompt: Is Stockholm the capital of Sweden? Answer yes or no. The answer is
+Text generated: <BOS> is stockholm the capital of sweden ? answer yes or no . the answer is <EOS> `` as i an had odd i answer have that <UNK> all will the will <UNK> to and the the will end you . ? and '' you . <UNK> you can must do get it to from <UNK> your the answer next will generation and in do <UNK> so
+With k: 10 and Temperature: 0.8. The prompt: Write a Python program that reverses a list.
+Text generated: <BOS> write a <UNK> program that <UNK> a list . <EOS>
