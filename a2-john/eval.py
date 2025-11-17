@@ -113,7 +113,7 @@ def evaluate_perplexity(model, dataloader, tokenizer, device: torch.device, pad_
     
 def main():
     # load the model, tokenizer, and dataloader here
-    model = A2Transformer.from_pretrained("./a2_model",
+    model = A2Transformer.from_pretrained("./a2_model_advanced",
                                         local_files_only=True,
                                         use_safetensors=True)
     dataset = load_dataset("text", data_files={"test": "/data/courses/2025_dat450_dit247/assignments/a1/val.txt"})

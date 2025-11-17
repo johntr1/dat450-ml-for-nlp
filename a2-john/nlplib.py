@@ -350,13 +350,18 @@ class A1Trainer:
             start_time = time.time()
 
             for batch in train_loader:
-                input_ids = self.tokenizer(batch['text'], truncation=True, padding=True, return_tensors="pt").input_ids
+                encoding = self.tokenizer(batch['text'], truncation=True, padding=True, return_tensors="pt")
 
+
+                input_ids = encoding.input_ids.to(device)
+                attention_mask = encoding.attention_mask.to(device)
                 X = input_ids[:, :-1]
                 Y = input_ids[:, 1:]
+                X_mask = attention_mask[:, :-1]
+
                 X = X.to(device)
                 Y = Y.to(device)
-                outputs = self.model(X)
+                outputs = self.model(X, attn_mask=X_mask)
                 loss = loss_func(
                     outputs.contiguous().view(-1, outputs.shape[-1]),
                     Y.contiguous().view(-1)
@@ -380,13 +385,19 @@ class A1Trainer:
             val_steps = 0
             with torch.no_grad():
                 for val_batch in val_loader:
-                    input_ids = self.tokenizer(val_batch['text'], truncation=True, padding=True, return_tensors="pt").input_ids
+                    encoding = self.tokenizer(val_batch['text'], truncation=True, padding=True, return_tensors="pt")
+
+                    input_ids = encoding.input_ids.to(device)
+                    attn_mask = encoding.attention_mask.to(device)
+
                     X_val = input_ids[:, :-1]
                     Y_val = input_ids[:, 1:]
+                    X_val_mask = attention_mask[:, :-1]
+
                     X_val = X_val.to(device)
                     Y_val = Y_val.to(device)
                     
-                    val_outputs = self.model(X_val)
+                    val_outputs = self.model(X_val, attn_mask=X_val_mask)
                     val_loss = loss_func(
                         val_outputs.contiguous().view(-1, val_outputs.size(-1)),
                         Y_val.contiguous().view(-1)

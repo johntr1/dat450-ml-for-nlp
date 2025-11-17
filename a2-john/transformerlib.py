@@ -90,7 +90,7 @@ class A2Attention(nn.Module):
         batch_size, heads, seq_length, head_dim = x.shape
         return x.transpose(1, 2).reshape(batch_size, seq_length, heads * head_dim)
         
-    def forward(self, hidden_states, rope_rotations):
+    def forward(self, hidden_states, rope_rotations, attn_mask):
         
         q = self.W_q(hidden_states)
         k = self.W_k(hidden_states)
@@ -107,8 +107,12 @@ class A2Attention(nn.Module):
         
         # applying rope to q, k
         q, k = apply_rotary_pos_emb(q, k, rope_rotations, unsqueeze_dim=1)
+        padding_mask = None
+        if attn_mask is not None:
+            padding_mask = (attn_mask == 0)
+            padding_mask = padding_mask.unsqueeze(1).unsqueeze(2)
 
-        attn_output = F.scaled_dot_product_attention(q, k, v, attn_mask=None, dropout_p=0.0, is_causal=True)
+        attn_output = F.scaled_dot_product_attention(q, k, v, attn_mask=padding_mask, dropout_p=0.0, is_causal=True)
         
         attn_output = self._merge_heads(attn_output) # (batch_size, seq_length, hidden_size)
 
@@ -129,8 +133,8 @@ class A2DecoderLayer(nn.Module):
         self.attn_norm = nn.RMSNorm(self.hidden_size, eps=config.rms_norm_eps)
         self.mlp_norm = nn.RMSNorm(self.hidden_size, eps=config.rms_norm_eps)
 
-    def forward(self, hidden_states, rope_rotations):
-        attn_out = self.attn(hidden_states, rope_rotations)
+    def forward(self, hidden_states, rope_rotations, attn_mask=None):
+        attn_out = self.attn(hidden_states, rope_rotations, attn_mask=attn_mask)
         attn_out = self.attn_norm(attn_out)
 
         hidden_states = hidden_states + attn_out
@@ -169,14 +173,14 @@ class A2Transformer(PreTrainedModel):
         self.post_init()
 
 
-    def forward(self, input_ids):
+    def forward(self, input_ids, attn_mask=None):
         rope_rotations = self.rotary_emb(input_ids) # pass this to all the transformer decoder layers
         # TODO: Call embedding, transformer decoder layers, last normalizer, and unembedding.
 
         hidden_states = self.embedding(input_ids)  # (batch_size, seq_length, hidden_size) for debug
         
         for layer in self.layers:
-            hidden_states = layer(hidden_states, rope_rotations)
+            hidden_states = layer(hidden_states, rope_rotations, attn_mask)
         
         hidden_states = self.final_norm(hidden_states)
 

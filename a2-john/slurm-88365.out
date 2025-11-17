@@ -1,0 +1,40 @@
+Loading Dataset...
+Dataset Loaded Successfully
+Starting Training...
+Device: cuda
+
+==== Epoch 1/15 ====
+Traceback (most recent call last):
+  File "/data/users/martindi/dat450-ml-for-nlp/a2-john/train.py", line 65, in <module>
+    trainer.train()
+  File "/data/users/martindi/dat450-ml-for-nlp/a2-john/nlplib.py", line 364, in train
+    outputs = self.model(X, attn_mask=X_mask)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/courses/2025_dat450_dit247/venvs/dat450_venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/courses/2025_dat450_dit247/venvs/dat450_venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/users/martindi/dat450-ml-for-nlp/a2-john/transformerlib.py", line 182, in forward
+    hidden_states = layer(hidden_states, rope_rotations, attn_mask)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/courses/2025_dat450_dit247/venvs/dat450_venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/courses/2025_dat450_dit247/venvs/dat450_venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/users/martindi/dat450-ml-for-nlp/a2-john/transformerlib.py", line 136, in forward
+    attn_out = self.attn(hidden_states, rope_rotations, attn_mask=attn_mask)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/courses/2025_dat450_dit247/venvs/dat450_venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/courses/2025_dat450_dit247/venvs/dat450_venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/users/martindi/dat450-ml-for-nlp/a2-john/transformerlib.py", line 114, in forward
+    attn_output = F.scaled_dot_product_attention(q, k, v, attn_mask=padding_mask, dropout_p=0.0, is_causal=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: The expanded size of the tensor (272) must match the existing size (64) at non-singleton dimension 2.  Target sizes: [64, 8, 272, 272].  Tensor sizes: [64, 272]

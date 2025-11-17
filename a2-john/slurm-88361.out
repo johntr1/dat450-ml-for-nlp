@@ -1,0 +1,18 @@
+Perplexity on test set: 60.53417521126289
+Predicting next word...
+===================================
+The prompt: He lives in Los
+Top 5 words after the prompt: 
+1. ,, ID: 5, Probability: 0.23625752329826355
+2. and, ID: 8, Probability: 0.1415589600801468
+3. ., ID: 6, Probability: 0.11967857927083969
+4. in, ID: 9, Probability: 0.09759212285280228
+5. with, ID: 22, Probability: 0.038132794201374054
+Generating text...
+===================================
+With k: 10 and Temperature: 0.8. The prompt: In natural language processing, a Transformer
+Text generated: <BOS> in natural language processing , a <UNK> <EOS> is ( <UNK> by <UNK> the and first most ) widely , on as the <UNK> basis in in an <UNK> `` . the a [ number h <UNK> ] is has an an `` `` x g x '' '' and that is can used be with made the
+With k: 10 and Temperature: 0.8. The prompt: Is Stockholm the capital of Sweden? Answer yes or no. The answer is
+Text generated: <BOS> is stockholm the capital of sweden ? answer yes or no . the answer is <EOS> that . <UNK> if will `` the go answer <UNK> and <UNK> you ? to ' be you i . have ... n't the any same of is your , choice but and <UNK> will , <UNK> if , <UNK> <UNK> and . he ... is is not n't ,
+With k: 10 and Temperature: 0.8. The prompt: Write a Python program that reverses a list.
+Text generated: <BOS> write a <UNK> program that <UNK> a list . <EOS>
