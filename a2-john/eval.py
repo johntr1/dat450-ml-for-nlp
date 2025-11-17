@@ -113,7 +113,7 @@ def evaluate_perplexity(model, dataloader, tokenizer, device: torch.device, pad_
     
 def main():
     # load the model, tokenizer, and dataloader here
-    model_file = "./a2_model_advanced"
+    model_file = "./a2_best_model"
     model = A2Transformer.from_pretrained(model_file,
                                         local_files_only=True,
                                         use_safetensors=True)
@@ -131,10 +131,18 @@ def main():
 
     print("Predicting next word...")
     print("===================================")
-    prompt = "He lives in San"
+    prompt = "This is a"
     predict_next_word(model, tokenizer, prompt)
 
-
+    print("Predicting another word...")
+    print("===================================")
+    prompt = "He looked at the"
+    predict_next_word(model, tokenizer, prompt)
+    
+    print("Predicting one last word...")
+    print("===================================")
+    prompt = "He lives in Los"
+    predict_next_word(model, tokenizer, prompt)
     print("Generating text...")
     print("===================================")
     prompt1 = 'In natural language processing, a Transformer'

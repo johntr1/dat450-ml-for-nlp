@@ -25,9 +25,9 @@ tokenizer = A1Tokenizer.from_file("tokenizer.pkl")
 
 cfg = A2ModelConfig(
         vocab_size=10000,
-        hidden_size=64,
-        intermediate_size=256,
-        num_attention_heads=8,
+        hidden_size=128,
+        intermediate_size=512,
+        num_attention_heads=4,
         num_hidden_layers=3,
         rope_theta=100000.0,
         rms_norm_eps=1e-6
@@ -36,7 +36,7 @@ cfg = A2ModelConfig(
 model = A2Transformer(cfg)
 
 args = TrainingArguments(
-    output_dir="./a2_model_attn_mask_fixed",
+    output_dir="./a2_best_model",
     num_train_epochs=10, 
     per_device_train_batch_size=64,
     per_device_eval_batch_size=64,
@@ -44,7 +44,7 @@ args = TrainingArguments(
     eval_strategy="epoch",
     use_cpu=False,
     no_cuda=False,
-    learning_rate=1e-3,
+    learning_rate=5e-4,
 )
 
 print("Loading Dataset...")

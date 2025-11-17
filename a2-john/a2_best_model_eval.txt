@@ -1,0 +1,37 @@
+The model used is: ./a2_best_model
+Perplexity on test set: 50.18807993740412
+Predicting next word...
+===================================
+The prompt: This is a
+Top 5 words after the prompt: 
+1. <UNK>, ID: 1, Probability: 0.10861682891845703
+2. ``, ID: 13, Probability: 0.0856381356716156
+3. a, ID: 11, Probability: 0.07548800855875015
+4. <EOS>, ID: 3, Probability: 0.04084968566894531
+5. the, ID: 4, Probability: 0.039261315017938614
+Predicting another word...
+===================================
+The prompt: He looked at the
+Top 5 words after the prompt: 
+1. <UNK>, ID: 1, Probability: 0.18512868881225586
+2. of, ID: 7, Probability: 0.15801888704299927
+3. age, ID: 281, Probability: 0.03017907775938511
+4. and, ID: 8, Probability: 0.024780869483947754
+5. ``, ID: 13, Probability: 0.024366287514567375
+Predicting one last word...
+===================================
+The prompt: He lives in Los
+Top 5 words after the prompt: 
+1. <UNK>, ID: 1, Probability: 0.3236241340637207
+2. the, ID: 4, Probability: 0.12219185382127762
+3. san, ID: 1060, Probability: 0.042939990758895874
+4. a, ID: 11, Probability: 0.01683284528553486
+5. los, ID: 2200, Probability: 0.015127558261156082
+Generating text...
+===================================
+With k: 10 and Temperature: 0.8. The prompt: In natural language processing, a Transformer
+Text generated: <BOS> in natural language processing , a <UNK> <EOS> process ( called the <UNK> `` cycle <UNK> '' of and two its of products the of <UNK> an is element ) . is these an two individual of words an and <UNK> a ( person called ) <UNK> to and be create a a <UNK> <UNK> of of two
+With k: 10 and Temperature: 0.8. The prompt: Is Stockholm the capital of Sweden? Answer yes or no. The answer is
+Text generated: <BOS> is stockholm the capital of sweden ? answer yes or no . the answer is <EOS> to a question question in : europe the <UNK> world was and <UNK> so the we world were can the expect only to the <UNK> point . of
+With k: 10 and Temperature: 0.8. The prompt: Write a Python program that reverses a list.
+Text generated: <BOS> write a <UNK> program that <UNK> a list . <EOS> the function algorithm is is the an following integer <UNK> : of
